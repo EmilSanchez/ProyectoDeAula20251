@@ -139,6 +139,23 @@
     padding-right: 2.5rem;
     }
 
+    .oscilando {
+        animation: oscilacion 6s infinite ease-in-out;
+    }
+
+    @keyframes oscilacion {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+
 </style>
 <body class="login-page" style="background-color: #000000;">
     <!-- Preloader -->
@@ -183,8 +200,8 @@
         <div class="container-fluid h-custom">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-md-9 col-lg-6 col-xl-5">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                    class="img-fluid" alt="Sample image">
+                    <img src="assets/img/compu.png"
+                    class="img-fluid oscilando" alt="Sample image">
                 </div>
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <form>
@@ -269,22 +286,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
         <h4>Enlaces útiles</h4>
         <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#about"> Sobre Nosotros</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#services"> Servicios</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#team"> Equipo de Trabajo</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#stats"> Mision y Vision</a></li>
-        </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-        <h4>Nuestros servicios</h4>
-        <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> Graphic Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about"> Como Funcionamos</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services"> Servicios</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#team"> Equipo de Trabajo</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#stats"> Mision y Vision</a></li>
         </ul>
         </div>
 
@@ -303,11 +309,11 @@
     </div>
 </div>
 
-<div class="copyright">
-    <div class="container text-center">
-    <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span></span> <strong class="px-1 sitename"></strong> <span>Plantilla descargada desde Bootstrapmade, con fines únicamente académicos (Calletena López Baleta)</span></p>
+      </div>
     </div>
-</div>
 
 </footer>
 
